@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance</string>
+
+    <string name="text_saldo">Tekushchiy balans</string>
+    <string name="btn_pemasukan">Dobavit\' raskhod</string>
+    <string name="btn_pengeluaran">Dobavit\' raskhod</string>
+    <string name="btn_riwayat">Prosmotr istorii</string>
+    <string name="text_last_transactions">Poslednie tranzaktsii</string>
+
+    <string name="greeting">Dobro pozhalovat\' v prilozhenie!</string>
+    <string name="loading_text">Loading data...</string>
+    <string name="add_pemasukan">Dobavit\' dokhod</string>
+    <string name="btn_simpan">Sohranit</string>
+    <string name="label_tanggal">Data</string>
+    <string name="placeholder_pilih_tanggal">Vyberite datu</string>
+    <string name="desc_back_button">Back Button</string>
+    <string name="nama_pemasukan">Nazvanie dokhoda</string>
+    <string name="tambah_pengeluaran">Dobavit\' raskhod</string>
+    <string name="nama_pengeluaran">Nazvanie dokhoda</string>
+    <string name="simpan_pengeluaran">Sohranit</string>
+    <string name="validation_empty_fields">All fields must be filled correctly!</string>
+    <string name="validation_invalid_nominal">Invalid nominal.</string>
+    <string name="toast_save_success">%s successfully saved!</string>
+    <string name="desc_country_flag">Detected country flag</string>
+    <string name="desc_app_logo">Main application logo</string>
+    <string name="welcome_splash_text">CatatKeuanganku</string>
+    <string name="location_label">Country:</string>
+    <string name="location_timeout">Location Timeout</string>
+    <string name="permission_denied">permission denied</string>
+    <string name="location_unavailable">location unavailable</string>
+    <string name="geocoder_failed">geocoder failed</string>
+    <string name="label_saldo_terkini">Tekushchiy balans</string>
+    <string name="label_transaksi_terakhir">Poslednie tranzaktsii</string>
+    <string name="btn_lihat_riwayat">Prosmotr istorii</string>
+    <string name="hint_nominal">Nominal (Rp)</string>
+    <string name="desc_transaction_type">Transaction Type Icon</string>
+    <string name="app_namee">Finance Tracker</string>
+    <string name="detecting_location">Detecting Location...</string>
+    <string name="cat_salary">From Salary</string>
+    <string name="cat_interest">From Interest</string>
+    <string name="cat_food">Makanan</string>
+    <string name="cat_transport">Transportasi</string>
+    <string name="cat_shopping">Belanja</string>
+    <string name="cat_entertainment">Hiburan</string>
+    <string name="statistik_expense">Statistic Expense</string>
+    <string name="kategori">Category Details</string>
+    <string name="total_pengeluaran">Total Spending</string>
+    <string name="pilih_kategori">Choose Category</string>
+    <string name="title_insufficient">Insufficient Balance</string>
+    <string name="msg_insufficient">Insufficient balance!</string>
+    <string name="title_delete">Delete Transaction</string>
+    <string name="msg_confirm_delete">Are you sure?</string>
+    <string name="btn_yes">Yes, Delete</string>
+    <string name="btn_no">Cancel</string>
+    <string name="toast_deleted">Transaction Deleted</string>
+
+</resources>

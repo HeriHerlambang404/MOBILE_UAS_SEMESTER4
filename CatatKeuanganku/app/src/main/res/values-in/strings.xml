@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance</string>
+    <string name="text_saldo">Saldo</string>
+    <string name="btn_pemasukan">Tambah Pemasukan</string>
+    <string name="btn_pengeluaran">Tambah Pengeluaran</string>
+    <string name="btn_riwayat">Lihat Riwayat</string>
+    <string name="text_last_transactions">Transaksi Terakhir</string>
+    <string name="greeting">Selamat datang di aplikasi!</string>
+    <string name="loading_text">Loading...</string>
+    <string name="add_pemasukan">Tambah Pemasukan</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="label_tanggal">Tanggal</string>
+    <string name="placeholder_pilih_tanggal">Pilih Tanggal</string>
+    <string name="desc_back_button">Tombol Kembali</string>
+    <string name="nama_pemasukan">Nama Pemasukan</string>
+    <string name="tambah_pengeluaran">Tambah Pengeluaran</string>
+    <string name="nama_pengeluaran">Nama Pengeluaran</string>
+    <string name="simpan_pengeluaran">Simpan Pengeluaran</string>
+    <string name="validation_empty_fields">Semua kolom harus diisi dengan benar!</string>
+    <string name="validation_invalid_nominal">Nominal tidak valid.</string>
+    <string name="toast_save_success">%s berhasil disimpan!</string>
+    <string name="desc_country_flag">Bendera negara yang terdeteksi</string>
+    <string name="desc_app_logo">Logo utama aplikasi</string>
+    <string name="welcome_splash_text">CatatKeuanganku</string>
+    <string name="location_label">Negara:</string>
+    <string name="location_timeout">Location Timeout</string>
+    <string name="permission_denied">permission denied</string>
+    <string name="location_unavailable">location unavailable</string>
+    <string name="geocoder_failed">geocoder failed</string>
+    <string name="label_saldo_terkini">Saldo</string>
+    <string name="label_transaksi_terakhir">Transaksi Terakhir</string>
+    <string name="btn_lihat_riwayat">Lihat Riwayat</string>
+    <string name="hint_nominal">Nominal (Rp)</string>
+    <string name="desc_transaction_type">Ikon Tipe Transaksi</string>
+    <string name="app_namee">CatatanKeuanganku</string>
+    <string name="detecting_location">Detecting Location...</string>
+    <string name="cat_salary">Gaji</string>
+    <string name="cat_interest">Bunga</string>
+    <string name="cat_food">Makan</string>
+    <string name="cat_transport">Transportasi</string>
+    <string name="cat_shopping">Belanja</string>
+    <string name="cat_entertainment">Hiburan</string>
+    <string name="statistik_expense">Statistik Pengeluaran</string>
+    <string name="kategori">Rincian Kategori</string>
+    <string name="total_pengeluaran">Total Pengeluaran</string>
+    <string name="pilih_kategori">Pilih Kategori</string>
+    <string name="title_insufficient">Saldo Tidak Cukup</string>
+    <string name="msg_insufficient">Saldo Tidak Cukup!</string>
+    <string name="title_delete">Hapus Transaksi</string>
+    <string name="msg_confirm_delete">Anda Yakin?</string>
+    <string name="btn_yes">Ya, Hapus</string>
+    <string name="btn_no">Batal</string>
+    <string name="toast_deleted">Transaksi Di Hapus</string>
+
+</resources>

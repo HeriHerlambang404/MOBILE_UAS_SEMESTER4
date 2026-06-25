@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_type_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gaji"
+            android:contentDescription="@string/desc_transaction_type"
+            android:layout_marginEnd="16dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_bg_pemasukan"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_transaction_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Gaji Bulanan"
+                android:textSize="15sp"
+                android:textColor="#37474F"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:id="@+id/tv_transaction_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Dari Gaji"
+                android:textSize="11sp"
+                android:textColor="#4CAF50"
+                android:fontFamily="@font/poppins_medium"
+                android:background="#E8F5E9"
+                android:paddingHorizontal="6dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_transaction_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="24 Oktober 2025"
+                android:textSize="11sp"
+                android:textColor="#90A4AE"
+                android:fontFamily="@font/poppins_regular"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_transaction_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Rp. 1.000.000"
+            android:textSize="16sp"
+            android:textColor="#4CAF50"
+            android:fontFamily="@font/poppins_bold"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

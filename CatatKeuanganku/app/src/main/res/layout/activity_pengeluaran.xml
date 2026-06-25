@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back"
+            android:padding="8dp"
+            android:contentDescription="Kembali"/>
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn_back"
+            android:layout_marginStart="8dp"
+            android:layout_centerVertical="true"
+            android:text="@string/btn_pengeluaran"
+            android:textSize="22sp"
+            android:textColor="#37474F"
+            android:fontFamily="@font/poppins_bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_pengeluaran"
+        android:textColor="#37474F"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/rounded_input_field"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_nominal"
+        android:textColor="#37474F"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <EditText
+        android:id="@+id/et_nominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/rounded_input_field"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_kategori"
+        android:textColor="#37474F"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/sp_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="52dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="40dp"
+        android:background="@drawable/bg_spinner"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_tanggal"
+        android:textColor="#37474F"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="30 Oktober 2025"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_input_field"
+            android:textColor="#37474F"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/btn_pilih_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_today"
+            android:background="@drawable/rounded_bg_riwayat"
+            android:padding="12dp"
+            android:contentDescription="Pilih Tanggal"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_simpan"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:background="@drawable/rounded_bg_pengeluaran"
+        android:fontFamily="@font/poppins_medium"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
